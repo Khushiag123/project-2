@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="../images/logo1.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food website | Food Menu</title>
+</head>
+
+<body>
+    <!--Header for laptop (start)-->
+    <header>
+        <div class="header">
+
+            <!--Sign up/Sign in Form-->
+            <div class="sign">
+                <div class="sign-box">
+                    <div class="bar">
+                        <i class="fa-solid fa-xmark" id="x-sign-mb"></i>
+                    </div>
+                    <!-- sign up form  -->
+                    <div class="signup">
+                        <h3>Sign Up</h3>
+                        <form action="#">
+                            <label for="fullname">Enter Full Name</label></br>
+                            <input type="text" placeholder="Full Name" name="fullname" id=""></br>
+                            <label for="email">Enter E-mail</label></br>
+                            <input type="email" placeholder="E-mail" name="email" id=""></br>
+                            <label for="password">Create Password</label></br>
+                            <input type="password" placeholder="Password" name="password" id=""></br>
+                            <label for="copassword">Confirm Password</label></br>
+                            <input type="password" placeholder="Confirm Password" name="copassword" id=""></br>
+                            <input type="submit" value="Sign Up">
+                            <p id="to-signin">Already have an account? Sign In</p>
+                        </form>
+                    </div>
+                    <!-- sign in form  -->
+                    <div class="signin">
+                        <h3>Sign In</h3>
+                        <form action="#">
+                            <label for="email2">Enter Your E-mail:</label>
+                            <input type="email" placeholder="E-mail" name="email2" id="">
+                            <label for="password2">Enter Password: </label>
+                            <input type="password" placeholder="Password" name="password2" id="">
+                            <input type="submit" value="Sign In">
+                        </form>
+                        <p>Forgot Password?</p>
+                        <p id="to-signup">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (start)-->
+            <div class="headerbar">
+                <div class="account">
+                    <ul>
+                        <a href="./index.html">
+                            <li><i class="fa-solid fa-house-chimney"></i></li>
+                        </a>
+                        <a href="#">
+                            <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon1"></i></li>
+                        </a>
+                        <div class="search" id="searchinput1">
+                            <input type="search" name="" id="">
+                            <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                        </div>
+                        <a href="#">
+                            <li><i class="fa-solid fa-user" id="user-mb"></i></li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <a href="./index.html">
+                            <li>Home</li>
+                        </a>
+                        <a href="./About.html">
+                            <li>About</li>
+                        </a>
+                        <a href="./menu.html">
+                            <li>Food Menu</li>
+                        </a>
+                        <a href="./book.html">
+                            <li>Book table</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <!--Hidden Header for Mobile/Tablet (end)-->
+            <div class="logo">
+                <img src="https://th.bing.com/th/id/R.621ad162c03d53dae2ecea9b77a4c832?rik=BSCcks%2fNvrYAzA&riu=http%3a%2f%2fkhushifood.com%2fwp-content%2fuploads%2f2021%2f06%2fcropped-687bdc6719434e9fb725d9c56d969939-0001.png&ehk=0kEjGjmkIYEy%2bCLkHb3Rk1sshqqacBUPUcR01sPAnog%3d&risl=&pid=ImgRaw&r=0" alt="logo">
+            </div>
+            <!--Bar/cross in header for mobile/tablet (start)-->
+            <div class="bar">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-xmark" id="hdcross"></i>
+            </div>
+            <!--Bar/cross in header for mobile/tablet (end)-->
+            <div class="nav">
+                <ul>
+                    <a href="./index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./About.html">
+                        <li>About</li>
+                    </a>
+                    <a href="./menu.html">
+                        <li>Food Menu</li>
+                    </a>
+                    <a href="./book.html">
+                        <li>Book table</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="account">
+                <ul>
+                    <a href="./index.html">
+                        <li><i class="fa-solid fa-house-chimney"></i></li>
+                    </a>
+                    <a href="#">
+                        <li><i class="fa-solid fa-magnifying-glass searchicon" id="searchicon2"></i></li>
+                    </a>
+                    <div class="search" id="searchinput2">
+                        <input type="search" name="" id="">
+                        <i class="fa-solid fa-magnifying-glass srchicon"></i>
+                    </div>
+                    <a href="#">
+                        <li><i class="fa-solid fa-user" id="user-lap"></i></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!--Header for laptop (end)-->
+
+    <div class="menu">
+        <div class="menu1">
+            <div>
+                <h1>Our Menu</h1>
+            </div>
+            <div class="fav-head">
+                <!-- Add your all food items  -->
+                <div class="fav-food">
+                    <div class="item">
+                        <div>
+                            <img src="https://www.cookwithmanali.com/wp-content/uploads/2019/11/Butternut-Squash-Bharta-400x606.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Baingan Bharta</b></h3>
+                        <p>“A smoky eggplant over an open flame and
+                             A flavorful and aromatic delight.”</p>
+                        <p class="fav-price">Rs.250</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://3.bp.blogspot.com/-sS7Tf7DDDlw/W4EUtfjr9HI/AAAAAAAAOSQ/5WV1DSKSuTYia2qpcpTg3_8jKum807GcgCLcBGAs/s640/Paneer%2BTikka.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Paneer Tikka</b></h3>
+                        <p>“Marinated paneer cubes grilled to perfection.A vegetarian delight that's rich in flavor and texture.” </p>
+                        <p class="fav-price">Rs.450</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://1.bp.blogspot.com/-paBYG8ciTJs/V3-ah8KE8jI/AAAAAAAAFH0/gviVgOhlWJErW8UA0TCP3tJF9oH1Z5kbgCLcB/s640/malai%2Bkofta%2Bcurry%2B2.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Malai Kofta</b></h3>
+                        <p>“Soft paneer and vegetables served in a creamy tomato-based gravy.A royal treat for your taste buds.”</p>
+                        <p class="fav-price">Rs.500</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://www.tfrecipes.com/small-thumbnails/OIP.0IsJnGasdaZGybCnozmh5wHaJC" alt="Food item">
+                        </div>
+                        <h3><b>Dum Aalo</b></h3>
+                        <p>“Baby potatoes cooked in spiced tomato-onion gravy.Process infuses the flavors beautifully.”</p>
+                        <p class="fav-price">Rs.350</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://littlespicejar.com/wp-content/uploads/2021/01/Best-Garlicky-Palak-Paneer-2-340x510.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Palak Paneer</b></h3>
+                        <p>“Creamy spinach curry with chunks of paneer.Green delight that's both nutritious and delicious.”</p>
+                        <p class="fav-price">Rs.600</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://img.shpy.in/28612/1654072573737_OOTY.jpeg?width=600" alt="Food item">
+                        </div>
+                        <h3><b>Aalo Parantha</b></h3>
+                        <p> “Whole wheat flatbread stuffed with spiced mashed potatoes.Served with yogurt or pickles.”</p>
+                        <p class="fav-price">Rs.150</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://barbequehut.ca/wp-content/uploads/2019/10/butter-paneer.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Kadhai Paneer</b></h3>
+                        <p>“Paneer cooked with bell peppers, onions, and a flavorful spice blend. A restaurant favorite.”</p>
+                        <p class="fav-price">Rs.650</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://i.pinimg.com/originals/7b/3b/4e/7b3b4e27d3b0db31d18aeb015715b4d1.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Vegetable Biryani</b></h3>
+                        <p> “Fragrant rice layered with spiced vegetables,saffron,and fried onions.A festive dish.”</p>
+                        <p class="fav-price">Rs.450</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://www.vegrecipesofindia.com/wp-content/uploads/2021/01/dahi-vada-recipe-1-580x580.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Dahi Vada</b></h3>
+                        <p>“Soft lentil dumplings soaked in yogurt and topped with tangy chutneys.A refreshing snack.” </p>
+                        <p class="fav-price">Rs.250</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://image.shutterstock.com/image-photo/punjabi-chhole-known-chhola-masala-260nw-2140525993.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Rajma Chawal</b></h3>
+                        <p>“Kidney beans in thick tomato-based gravy,served with steamed rice.Comfort food at its best.”</p>
+                        <p class="fav-price">Rs.350</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://www.shutterstock.com/image-photo/gobi-manchurian-dry-65-chilly-600nw-1665703150.jpg" alt="Food item">
+                        </div>
+                        <h3><b>Gobhi Manchurian</b></h3>
+                        <p>“Crispy cauliflower florets tossed in tangy and spicy Indo-Chinese sauce.Perfect as an appetizer”</p>
+                        <p class="fav-price">Rs.350</p>
+                    </div>
+                    <div class="item">
+                        <div>
+                            <img src="https://th.bing.com/th/id/OIP.jTpaNqr4M7bFZBHDwuDlmwAAAA?rs=1&pid=ImgDetMain" alt="Food item">
+                        </div>
+                        <h3><b>Masoor Daal</b></h3>
+                        <p>“A comforting lentil stew made with red lentils, tomatoes, and aromatic spices.”</p>
+                        <p class="fav-price">Rs.300</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-1">
+            <div class="logo">
+                <img src="https://signature.freefire-name.com/img.php?f=10&t=Khushi" alt="logo">
+            </div>
+            <div>
+                <address>
+                        <p>Email:agrawalkhushi6402@gmail.com</p>
+                        
+                        <p>Khushi Agrawal,</br>Saket Calony,Hathras,</br> India 204101.</p>
+                    </address>
+            </div>
+        </div>
+        <div class="footer-2">
+            <img src="https://signature.freefire-name.com/img.php?f=10&t=Khushi" alt="">
+            <h2>Powered by <em>Khushi Agrawal</em></h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
